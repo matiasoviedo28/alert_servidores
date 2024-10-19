@@ -46,6 +46,8 @@ El sistema consiste en:
 
    El script ejecutará pings a los servidores configurados y registrará su estado en un archivo `server_status.txt`. Solo enviará un correo cuando un servidor pase de "OK" a "NO RESPONDE" y no volverá a enviar hasta que el servidor responda al menos una vez.
 
+   ![ejemplo1](test.png)
+
    #### Script Python (send_mail.py)
 
    En el archivo `send_mail.py`, deberás configurar las credenciales y los destinatarios de los correos electrónicos. Edita las siguientes variables:
@@ -88,7 +90,9 @@ El sistema consiste en:
 
    El **script Python** se encarga de enviar un correo electrónico con la información del servidor que no responde. Utiliza el protocolo **SMTP** para conectarse a un servidor de correo (por ejemplo, Gmail). Los correos no se enviarán más de una vez por hora.
 
-3. **Prevención de Spam**
+   ![ejemplo](ej_mail.png)
+
+4. **Prevención de Spam**
 
    El script controla el envío de correos para que no se envíe un correo más de una vez por hora, y solo enviará un correo cuando un servidor pase de "OK" a "NO RESPONDE".
 
