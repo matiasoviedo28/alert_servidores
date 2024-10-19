@@ -57,6 +57,7 @@ El sistema consiste en:
    # Servidor SMTP  
    servidor = 'smtp.gmail.com'
 ```  
+   si no haz creado un gmail y clave, te recomiendo este [video tutorial](https://www.youtube.com/watch?v=OJxShAGAvLM)
 
    El script también lleva un registro de los correos enviados en `mail_log.txt` y de los errores en `error_log.txt`. El envío de correos se controlará para que no se envíen más de una vez por hora.
 
